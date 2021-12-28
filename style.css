@@ -1,5 +1,35 @@
+:root {
+    --border-color: #e3e5e4;
+    --background-color:#c3c7ca;
+    --text-color: #34444f
+}
+
 * {
     box-sizing: border-box;
+    
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    display: flex;/*centers everything*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;/*justified to the top*/
+    height: 100vh;
     margin: 0;
+
+}
+
+.draggable-list{
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
     padding: 0;
+    list-style-type: none;
+}
+
+.draggable-list li {
+    background-color: #fff;
+    display: flex;
+    flex: 1;
 }
