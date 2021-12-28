@@ -21,7 +21,7 @@ const listItems = [];//represents listItems as we sort it
 
 //Need a way to keep track of index of each listItem so initialise a var called dragStartIndex
 
-let dragStartIndex; //use let as it will be changed later
+let dragStartIndex;
 
 createList();
 
