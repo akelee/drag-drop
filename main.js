@@ -52,4 +52,3 @@ function createList(){
         draggable_list.appendChild(listItem); //add it to DOM. Append LI into UL
     })
 };
-
