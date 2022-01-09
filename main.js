@@ -32,7 +32,7 @@ function createList(){
     
     .map(a => ({value: a, sort: Math.random()})) //change array into object w a vlue and a sort. takes array and return new array. for each one 'a', we want to return a list of objects. Math.random returns random decimal
     .sort((a, b) => a.sort - b.sort) //sorted via random value
-    .map(a => a.value) //chnged obj back into array of strings
+    .map(a => a.value) //changed obj back into array of strings
     .forEach((person, index) => {
         const listItem = document.createElement('li');//create new html list item element to insert in DOM
 
