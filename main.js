@@ -24,7 +24,6 @@ let dragStartIndex;
 createList();
 
 //Insert list items into DOM
-
 function createList(){
     [...richestPeople] //...spread operator copies array above as is and loop thru it with .forEach. person reps string info, index reps position of item in array
     
