@@ -19,7 +19,6 @@ const richestPeople = [
 const listItems = [];//represents listItems as we sort it
 
 //Need a way to keep track of index of each listItem so initialise a var called dragStartIndex
-
 let dragStartIndex;
 
 createList();
