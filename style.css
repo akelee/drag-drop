@@ -49,7 +49,7 @@ body{
     width:60px;
 }
 
-.draggable-list.over .draggable {
+.draggable-list li.over .draggable {
     background-color: #eaeaea; /*item in bg turns darker when hovered over*/
 }
 
